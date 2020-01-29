@@ -5,7 +5,7 @@
 //education shortcode output
 function education_ccwidget_shortcode ($args, $content="") {
 add_action('init', 'register_script');
-wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '/career-coach/dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
+wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '../dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
 wp_enqueue_script('ccwidget-script', 'https://s3-us-west-2.amazonaws.com/cc-widget-v2/ccWidget.js', array(), '1.0.0', true );
 ?>
 <script type="text/javascript" async>
@@ -27,7 +27,7 @@ return $output;
 //education k8 shortcode output
 function education_k8_ccwidget_shortcode ($args, $content="") {
 add_action('init', 'register_script');
-wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '/career-coach/dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
+wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '../dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
 wp_enqueue_script('ccwidget-script', 'https://s3-us-west-2.amazonaws.com/cc-widget-v2/ccWidget.js', array(), '1.0.0', true );
 ?>
 <script type="text/javascript" async>
@@ -49,7 +49,7 @@ return $output;
 //general studies psychology shortcode output
 function gs_psychology_ccwidget_shortcode ($args, $content="") {
 add_action('init', 'register_script');
-wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '/career-coach/dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
+wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '../dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
 wp_enqueue_script('ccwidget-script', 'https://s3-us-west-2.amazonaws.com/cc-widget-v2/ccWidget.js', array(), '1.0.0', true );
 ?>
 <script type="text/javascript" async>
@@ -71,7 +71,7 @@ return $output;
 //early childhood development shortcode output
 function ecd_ccwidget_shortcode ($args, $content="") {
 add_action('init', 'register_script');
-wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '/career-coach/dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
+wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '../dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
 wp_enqueue_script('ccwidget-script', 'https://s3-us-west-2.amazonaws.com/cc-widget-v2/ccWidget.js', array(), '1.0.0', true );
 ?>
 <script type="text/javascript" async>
@@ -93,7 +93,7 @@ return $output;
 //early childhood development certificate shortcode output
 function ecd_certificate_ccwidget_shortcode ($args, $content="") {
 add_action('init', 'register_script');
-wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '/career-coach/dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
+wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '../dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
 wp_enqueue_script('ccwidget-script', 'https://s3-us-west-2.amazonaws.com/cc-widget-v2/ccWidget.js', array(), '1.0.0', true );
 ?>
 <script type="text/javascript" async>
@@ -115,7 +115,7 @@ return $output;
 //general education certificate shortcode output
 function ge_certificate_ccwidget_shortcode ($args, $content="") {
 add_action('init', 'register_script');
-wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '/career-coach/dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
+wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '../dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
 wp_enqueue_script('ccwidget-script', 'https://s3-us-west-2.amazonaws.com/cc-widget-v2/ccWidget.js', array(), '1.0.0', true );
 ?>
 <script type="text/javascript" async>
@@ -137,7 +137,7 @@ return $output;
 //early childhood development csc shortcode output
 function ecd_csc_ccwidget_shortcode ($args, $content="") {
 add_action('init', 'register_script');
-wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '/career-coach/dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
+wp_enqueue_style ( 'ccwidget-custom-styles', plugins_url( '../dist/css/custom-widget-styles.css'), array(),'1.0.0','all');
 wp_enqueue_script('ccwidget-script', 'https://s3-us-west-2.amazonaws.com/cc-widget-v2/ccWidget.js', array(), '1.0.0', true );
 ?>
 <script type="text/javascript" async>
